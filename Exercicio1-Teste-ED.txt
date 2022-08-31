@@ -1,0 +1,3 @@
+A := 9
+B := 10
+A + B %Realiza a soma entre A e B

@@ -1,0 +1,16 @@
+Vet = [2, 5, 1, 3, 4]
+para i = 1, 2, 3...Piso(n) faça
+    temporario := Vet[n - i + 1] 
+%   Pega as utimas posições 
+
+    Vet[n - i + 1] := Vet[i] 
+%   Proxima posica recebe a atual
+
+    Vet[i] := temporario 
+%   Posicao atual recebe o valor da proxima que foi guardado e trocado
+
+%
+    [n - i + 1] segue uma logica onde, se i = 3 e n = 3 então fazendo a conta temos: 3 - 3 + 1 que da 1, só que o piso é até o valor menor que o piso, logo não checa a 3.
+
+    Se i = 1 e n = 3, 3 - 1 = 2 + 1  que da 3, logo se pega o ultimo sempre.
+%
