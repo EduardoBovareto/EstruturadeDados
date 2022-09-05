@@ -1,0 +1,31 @@
+                                    Cálculo de Complexidade
+
+Todo algoritimo deve ser analisado dentro d e devidas questões de eficiência e eficácia:
+*Como solucionar o problema?
+*Como o algoritimo lida com o problema?
+*Qual a diferença e comparação deste pra outro que soluciona igual?
+*Como se deve analisar a qualidade de tratamento deste algoritimo?
+* Qual o custo e o menor e o maior para resolver o problema? 
+
+algoritimo = Sequência de tarefas executadas (Feitas ou realizadas) para obtenção de um resultado em um problema.
+    Medidas de Complexidade
+
+    Facil entendimento, esse é um critério inicial para selecionar um algorítimo que resolve o problema.
+        Porém, nem todos são tão eficientes, tempo de execução, espaço para execução, sua utilização.
+        
+        Pode ser medido por um número de passos de execução, Máquina de Turing ou os segundos gastos no programa.
+
+        A Complexidade nos algoritimos seria a escalação de um algoritimo para algo maior, uma aplicação de função em n valores que são contados por exemplo, escalabilidade.
+            Isso seria complexidade dos passos do algoritimo, escalabilidade das operações elementares do algoritimo.
+
+        Ja a complexidade de tempo do algoritimo é construída em cima da quantidade de n entradas e no tempo constante.
+        Complexidade de tempo é o número de unidades de tempo para processar a entrada, normalmente em milisegundos contando com a quantidade de entradas do algorítimo.
+
+    Em geral temos notações de análise de complexidade, e essas análises tem seus parâmetros e formas de tratar os algorítimos, são eles:
+    *Big
+    *Small
+        Se dividindo aida em:
+        * O
+        * Omega
+        * Theta.     
+https://www.iugu.com/iugu4devs/blog/analise-complexidade-algoritmos
